@@ -4666,3 +4666,33 @@ img {
   text-transform: uppercase;
   margin: 0 0 20px 0;
 }
+
+/*** catalogs ***/
+
+.headerContent {
+  background-color: #F1F3EE;
+  color: #737371;
+}
+
+.img-flyer-container ul {
+  padding: 0;
+  list-style-type: none;  
+  margin-top: 10px; 
+}
+
+  .img-flyer-container ul li {
+    display: inline;            
+  }
+  
+  .img-flyer-container ul li a {
+    text-decoration: none;
+    /*padding: 6.2em 7em;
+    /*font-size: 15pt;   */
+  }
+
+  .img-flyer-container ul li img {
+    vertical-align: inherit;
+  }
+
+  
+ /*** catalogs ***/
