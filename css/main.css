@@ -4691,7 +4691,9 @@ img {
   }
 
   .img-flyer-container ul li img {
-    vertical-align: inherit;
+    vertical-align: inherit;   
+    width: 32%; 
+    margin-left: 10px;
   }
 
   
