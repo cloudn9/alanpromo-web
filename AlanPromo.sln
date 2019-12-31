@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AlanPromo", "http://localhost/AlanPromo", "{5E285B90-C136-40CA-A57D-2D5E3034A87F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/AlanPromo"
+		Debug.AspNetCompiler.PhysicalPath = "G:\GitHub\alanpromo-web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AlanPromo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AlanPromo"
+		Release.AspNetCompiler.PhysicalPath = "G:\GitHub\alanpromo-web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AlanPromo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "G:\GitHub\alanpromo-web\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E285B90-C136-40CA-A57D-2D5E3034A87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E285B90-C136-40CA-A57D-2D5E3034A87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5850EC47-017A-4661-A54A-0369D619E3F8}
+	EndGlobalSection
+EndGlobal
