@@ -4691,10 +4691,16 @@ img {
   }
 
   .img-flyer-container ul li img {
-    vertical-align: inherit;   
-    width: 32%; 
-    margin-left: 10px;
+    vertical-align: inherit;       
+    margin-top: 10px;
   }
 
-  
- /*** catalogs ***/
+  @media only screen and (min-width: 768px) {
+    .img-flyer-container ul li img {
+        cursor: pointer;
+        width: 33%;
+    }
+   }
+
+
+    /*** catalogs ***/
