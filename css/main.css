@@ -4796,3 +4796,7 @@ img {
 }
 
 /*** links ***/
+
+.top-buffer {
+    margin-top: 20px;
+}
