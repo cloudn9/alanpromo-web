@@ -464,10 +464,10 @@
                     <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Contattaci</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-md-6 col-xs-12">
+            <div class="row" >
+                <div class="col-lg-8 col-md-6 col-xs-12" hidden="hidden">
                     <h3 class="title-head text-left">Scrivici</h3>
-                    <form class="contact-form" data-toggle="validator" action="" onsubmit="sendForm();">
+                    <form class="contact-form" data-toggle="validator" action="" method="get">
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-xs-12">
                                 <div class="form-group">
@@ -542,7 +542,7 @@
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <ul class="nav nav-inline  justify-content-end ">
                             <li class="nav-item">
-                                <a class="nav-link" role="button" rel="noreferrer nofollow" href="http://localhost/AlanPromo/cookies-privacy" target="_blank">Politica cookie e privacy</a>
+                                <a class="nav-link" role="button" rel="noreferrer nofollow" href="http://www.AlanPromo.it/cookies-privacy" target="_blank">Politica cookie e privacy</a>
                             </li>
                         </ul>
                     </div>
@@ -600,19 +600,3 @@
 </body>
 
 </html>
-
-<script type="text/javascript">
-    function sendForm() {
-        var name = $('#name').val();
-        var email = $('#email').val();
-        var message = $('#message').val();
-        $.post("form-process.php", 'name=' + name + '&email=' + email + '&message=' + message, function (result, status, xhr) {
-            if (status.toLowerCase() == "error".toLowerCase()) { alert("An Error Occurred.."); }
-            else {
-                //alert(result);
-                $('#msgSubmit').html(result);
-            }
-        })
-        //.fail(function () { alert("Something went wrong. Please try again") });
-    }
-</script>
